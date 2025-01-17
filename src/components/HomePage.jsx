@@ -1,12 +1,12 @@
 import React from 'react'
-import startimage from "../assets/startimage.jpg"
+import startImage from "../assets/startImage.jpg"
 import { Link } from 'react-router-dom'
 import "./HomePageStyle.css"
 const HomePage = () => {
   return (
     <div class="hero">
         <div className="mask">
-            <img className="intro-image" src={startimage} alt = "startImage"/>
+            <img className="intro-image" src={startImage} alt = "startImage"/>
         </div>
         <div className="content">
             <p>Hi I'm Kaviya.</p>
